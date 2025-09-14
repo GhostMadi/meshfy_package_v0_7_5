@@ -1,0 +1,7 @@
+.dart_tool/
+.packages
+build/
+ios/Pods/
+android/.gradle/
+.idea/
+.vscode/

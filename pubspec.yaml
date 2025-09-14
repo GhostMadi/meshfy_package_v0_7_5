@@ -1,0 +1,25 @@
+name: meshfy
+description: Personal offline Bluetooth mesh messaging toolkit (Bridgefy-like) for Flutter. Includes API, media transfer, and JSON categories. (Stub native layer)
+version: 0.7.5
+homepage: https://github.com/GhostMadi/meshfy_package_v7
+repository: https://github.com/GhostMadi/meshfy_package_v7
+publish_to: "none"
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  path_provider: ^2.1.4
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.meshfy
+        pluginClass: MeshfyPlugin
+      ios:
+        pluginClass: MeshfyPlugin
